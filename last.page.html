@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ICU Phones</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--
+    <link rel="stylesheet" href="styles.css">
+    -->
+  </head>
+
+
+  <body style="background-color: lightgreen;">
+
+        <!-- Nav bar -->
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand active" href="final assigment.html">ICU Phones</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                
+                 <a class="nav-link active" aria-current="page" href="products.html">Products</a> 
+                  <a class="nav-link active" href="new,products.html">New product</a>
+                  <a class="nav-link active" href="bundle.html">Bundle</a>
+                  <a class="nav-link active" href="BestIphone.html">Best Iphone</a>
+                  <a class="nav-link" href="Accessories.html">Accessories</a> 
+                  <a class="nav-link" href="Apple.plus.html">Apple plus</a> 
+                  <a class="nav-link" href="last.page.html">Support</a> 
+
+
+
+                </div>
+              </div>
+            </div>
+          </nav>
+     
+
+
+<div class="backpage">
+<img src="https://digiwits.co/assets/uploads/2023/09/the-history-behind-the-apple-logo.jpg" style="height: 200px;">
+<p>Apple is the best company in terms of success by<br> having the most sold products in the world leading<br> the race compared to the other competitors.<br>Also it has the best reviews to all of their products<br> making it the best tech company in the world. </p>
+
+</div>
+
+
+<div class="timer float-end">
+<h1>Upcomoing Product!</h1>
+<!-- Display the countdown timer in an element -->
+<h1 id="demo"></h1>
+
+<script>
+  // Set the date we're counting down to
+  var countDownDate = new Date("Sep 15, 2024 15:37:25").getTime();
+
+  // Update the count down every 1 second
+  var x = setInterval(function() {
+
+    // Get today's date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Display the result in the element with id="demo"
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+
+    // If the count down is finished, write some text
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+  }, 1000);
+</script>
+ </div>
+
+
+ <!--form-->
+ <div class="mb-3 w-50">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3 w-50">
+  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  <div class="col-auto">
+    <button type="submit" class="btn btn-primary mb-3">Confirm identity</button>
+  </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body >

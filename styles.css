@@ -1,0 +1,227 @@
+
+
+
+.stock-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    
+}
+
+.myDiv {
+    border: 1px solid black; /* add a border */
+    background-color: red; /* set the background color to red */
+  }
+
+
+.images{
+display: flex;
+justify-content: space-around;
+margin:70px
+}
+
+/* This is 
+a comment
+*/
+.gif{
+display: flex;
+justify-content: center;
+
+}
+
+.pictures{
+
+justify-content: end;
+width: 300px;
+}
+
+.pco{
+
+display:flex;
+padding: 1em;
+
+justify-content: space-between;
+align-self: auto flex-end;
+}
+
+.vid{
+margin-top: 380px;
+
+}
+
+.Bundle{
+
+display: flex;
+flex-flow: column;
+align-items: center;
+margin-top: 100px;
+}
+
+.others{
+margin-top: 170px;
+display: flex;
+  
+  gap: 600px;
+  gap: 600px 600px; /* row-gap column gap */
+  row-gap: 600px;
+  column-gap: 600px;
+
+}
+.tv{
+margin-left:-100px;
+
+}
+
+.BestIphone{
+margin-left: 70px;
+flex: 0 1 250px;
+
+
+
+}
+
+
+.lon{
+
+  display:flex;
+  justify-content: space-between;
+
+
+}
+
+
+.gif2{
+  margin-left: 100px;
+  
+  }
+
+.accessories{
+
+margin-left: 70px;
+margin-top: 100px;
+justify-content: space-evenly;
+
+}
+
+.accessories2 {
+  margin-left: 700px;
+  margin-top: -250px;
+}
+
+.accessories3 {
+  margin-left: 1200px;
+  margin-top: -250px;
+}
+
+
+.apple2{
+justify-content: space-evenly;
+margin-left: 700px;
+  margin-top: -270px;
+
+}
+.apple3{
+  margin-left: 1200px;
+  margin-top: -270px;
+
+
+}
+
+
+.gif3{
+display: flex;
+justify-content: center;
+margin-top: 100px;
+
+
+}
+
+
+.apple4{
+margin-top: 200px;
+
+
+}
+
+.apple5{
+  margin-left: 500px;
+  margin-top: -250px;
+}
+
+
+.Iphone15{
+margin-top: 60px;
+margin-left: 60px;
+
+}
+
+ .Samsung{
+  margin-top: -450px;
+  margin-left: 1060px;
+} 
+
+
+
+.review2{
+margin-top: 200px;
+margin-left: 500px;
+
+
+}
+
+
+.opp{
+
+margin-top: -220px;
+margin-left: 240px;
+}
+
+.link{
+margin-top: 200px;
+
+}
+
+.link2{
+margin-left: 1300px;
+margin-top: -20px;
+}
+
+
+
+.backpage{
+
+margin-top: 150px;
+margin-left: 100px;
+}
+
+
+.timer{
+margin-top: 100px;
+margin-left: 1010px;
+}
+
+
+.form{
+margin-left: 50px;
+width: 50%;
+}
+
+
+.time{
+
+margin-left: 1200px;
+}
+
+label {
+  display: block;
+  font:
+    1rem 'Fira Sans',
+    sans-serif;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+  margin-left: 1200px;
+}
+
